@@ -1,7 +1,10 @@
-.eslintrc.json
 .DS_Store
-Thumbs.db
-package.json
-package-lock.json
+thumbs.db
+.vscode
+.eslintrc.json
+
+TODO
 
 node_modules/
+package.json
+package-lock.json
