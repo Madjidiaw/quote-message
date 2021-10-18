@@ -7,9 +7,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  /*font-family: "Roboto", sans-serif;*/
+  font-family: cursive;
   text-align: center;
   background-color: #daeffb;
+  /*background-color: #669999;
+  background-color: #a3c2c2;*/
 }
 
 .main {
@@ -24,24 +27,38 @@ body {
 h1 {
   width: 100%;
   text-align: center;
-  font-family: "Montserrat";
+  /*font-family: "Montserrat";*/
 }
-
+div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*
 img {
   max-width: 100%;
   height: auto;
-}
+}*/
 
 button {
+  /*max-width: 1000px;*/
   margin: 1.5em auto;
   padding: 20px;
   border-radius: 40px;
   background-color: royalblue;
-  color: #fff;
+  /*background-color: #476b6b;
+  color: #fff;*/
   border: none;
   font-size: 16px;
-  font-family: "Montserrat";
+  font-family: cursive;
   font-weight: bold;
+}
+article {
+  /*max-width: 1000px;*/
+  width: 100%;
+  margin: 0 auto;
+  font-size: 32px;
 }
 
 button:hover {
@@ -57,7 +74,3 @@ button:hover {
   cursor: pointer;
 }
 
-figure {
-  max-width: 1000px;
-  margin: 0 auto;
-}
