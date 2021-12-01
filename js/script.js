@@ -1,3 +1,5 @@
+/* JS Code for DOM manipulation  and REST API*/
+
 const button = document.querySelector("button");
 const authorSpan = document.querySelector(".author");
 const quoteDiv = document.querySelector(".quote-container");
@@ -14,7 +16,6 @@ const selectRandomQuote = function (quotes) {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     console.log(randomIndex);
     const randomQuote = quotes[randomIndex];
-    //console.log(randomquote);
     displayQuote(randomQuote);
 };
 
